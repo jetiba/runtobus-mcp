@@ -1,5 +1,7 @@
 # Swiss Transport Sample MCP Server
 
+<img src="/assets/RunToBus.jpeg" alt="RunToBus logo" width="100"/>
+
 > **_NOTE:_**
 > This is a sample MCP server created for demonstration and educational purposes only. It is not an official MCP server for Swiss Transportation services.
 
@@ -71,7 +73,7 @@ trip_request(
 )
 ```
 
-## Installation
+## :minidisc: Installation
 
 ### Prerequisites
 - Python 3.13 or higher
@@ -104,6 +106,8 @@ uv run main.py
 ```
 
 The server will start on the default MCP streamable HTTP port.
+
+For using the MCP Server as a tool in Github Copilot chat you have to install it as described in the [official documentation](https://code.visualstudio.com/docs/copilot/chat/mcp-servers).
 
 ## :pencil2: Configuration
 
@@ -229,15 +233,12 @@ This project uses:
 
 ## License
 
-[Add your license information here]
+This project is licensed under the MIT License, see the [LICENSE](https://github.com/jetiba/runtobus-mcp/blob/main/LICENSE) file in this repo.
 
-## Contributing
 
-This project is licensed under the MIT License.
-
-## Support
+## :pray: Support and contributing
 
 For issues related to:
 - **OJP API**: Check [Swiss Open Transport Data documentation](https://opentransportdata.swiss/)
 - **MCP Protocol**: See [Model Context Protocol documentation](https://modelcontextprotocol.io/)
-- **This Server**: Open an issue in this repository
+- **This Server**: Open an [issue](https://github.com/jetiba/runtobus-mcp/issues) in this repository
